@@ -323,7 +323,7 @@ public:
 int main()
 {
 	sf::VideoMode desktop = sf::VideoMode::getDesktopMode();
-	sf::RenderWindow window(sf::VideoMode(1216, 608, desktop.bitsPerPixel), "Lesson 12");
+	sf::RenderWindow window(sf::VideoMode(1280, 800, desktop.bitsPerPixel), "Lesson 12");
 
 	Image map_image;//объект изображения для карты
 	map_image.loadFromFile("images/map_new.png");//загружаем файл для карты
